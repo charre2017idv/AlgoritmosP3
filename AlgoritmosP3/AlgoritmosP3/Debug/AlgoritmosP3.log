@@ -1,0 +1,17 @@
+﻿  CFOCO.cpp
+  CGALAXIA.cpp
+d:\universidad\algoritmosp3\algoritmosp3\algoritmosp3\source\cgalaxia.cpp(30): warning C4018: '<': no coinciden signed/unsigned
+  CMANAGER.cpp
+  CNODO.cpp
+  CPLANETA.cpp
+d:\universidad\algoritmosp3\algoritmosp3\algoritmosp3\source\cplaneta.cpp(25): warning C4018: '<': no coinciden signed/unsigned
+  CSATELITE.cpp
+  CSISTEMASOLAR.cpp
+d:\universidad\algoritmosp3\algoritmosp3\algoritmosp3\source\csistemasolar.cpp(32): warning C4018: '<': no coinciden signed/unsigned
+d:\universidad\algoritmosp3\algoritmosp3\algoritmosp3\source\csistemasolar.cpp(37): warning C4018: '<': no coinciden signed/unsigned
+d:\universidad\algoritmosp3\algoritmosp3\algoritmosp3\source\csistemasolar.cpp(51): warning C4018: '<': no coinciden signed/unsigned
+d:\universidad\algoritmosp3\algoritmosp3\algoritmosp3\source\csistemasolar.cpp(55): warning C4018: '<': no coinciden signed/unsigned
+d:\universidad\algoritmosp3\algoritmosp3\algoritmosp3\source\csistemasolar.cpp(64): warning C4018: '<': no coinciden signed/unsigned
+d:\universidad\algoritmosp3\algoritmosp3\algoritmosp3\source\csistemasolar.cpp(68): warning C4018: '<': no coinciden signed/unsigned
+  Generando código...
+  AlgoritmosP3.vcxproj -> D:\UNIVERSIDAD\AlgoritmosP3\AlgoritmosP3\Debug\AlgoritmosP3.exe
