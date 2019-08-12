@@ -25,28 +25,34 @@ public:
 
 	void setSpeeds(float max, float min) { speedAfelio = max; speedgHepielio = min; };
 
-	void setDistToFoco(float max, float min) { Afelio = max; hepielio = min; };
+	void setDistToFoco(float max, float min) { Afelio = max; perihelio = min; };
+
 
 	void onInit();
 	void onUpdate();
 	void onDelete();
-
+  void setShape();
+  void setShapeColor(sf::Color color);
 	void draw(sf::RenderWindow & wnd);
 
 	void calcularCentroMasa();
 	float calcularMasaTotal();
 
 private:
+  float time;
 	float ratio;
 	float Afelio;
-	float hepielio;
+	float perihelio;
 	float speedAfelio;
 	float speedgHepielio;
 	float masa;
+  float m_direction_X = -1;
 	sf::Vector2f centroDeMasa;
+  sf::Color planetColor;
 	//sf::Vector2f position;
 	//std::string nombre;
 	sf::CircleShape planeta;
+  sf::Transform T;
 	std::vector<SATELITE*> lunas;
 
 };

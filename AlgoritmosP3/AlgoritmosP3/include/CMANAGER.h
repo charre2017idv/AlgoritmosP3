@@ -16,6 +16,7 @@ public:
 	void onIniti();
 	void onLoop();
 	void onDelete();
+  void onRender(sf::RenderWindow & Wnd);
 	CNODO *search(std::string name,CNODO *node);
 
 private:

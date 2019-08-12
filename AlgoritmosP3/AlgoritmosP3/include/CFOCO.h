@@ -19,6 +19,9 @@ public:
 	void setMasa(float ms) { masa = ms; };
 	float getMasa() { return masa; };
 
+  void setShape();
+  void setShapeColor(sf::Color color);
+
 	void onInit() {};
 	void onUpdate();
 	void onDelete() {};
@@ -28,6 +31,7 @@ private:
 	float ratio;
 	float masa;
 	sf::Vector2f centroDeMasa;
+  sf::Color focoColor;
 	//sf::Vector2f position;
 	//std::string nombre;
 	sf::CircleShape foco;

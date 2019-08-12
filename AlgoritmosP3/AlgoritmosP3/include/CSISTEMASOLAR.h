@@ -29,6 +29,7 @@ public:
 	void onUpdate();
 	void onDelete();
 
+  
 	void calcularCentroMasa();
 	float calcularMasaTotal();
 	void drawSistem(sf::RenderWindow &wnd);

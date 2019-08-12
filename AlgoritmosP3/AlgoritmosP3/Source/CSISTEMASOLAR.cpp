@@ -26,6 +26,10 @@ void SISTEMASOLAR::addFoco(FOCO *newfoco)
 
 void SISTEMASOLAR::onInit()
 {
+  for (int i = 0; i < planetas.size(); i++)
+  {
+    planetas[i]->setShape();
+  }
 }
 
 void SISTEMASOLAR::onUpdate()
@@ -72,6 +76,6 @@ void SISTEMASOLAR::drawSistem(sf::RenderWindow &wnd)
 	}
 	for (int i = 0; i < planetas.size(); i++)
 	{
-
+    planetas[i]->draw(wnd);
 	}
 }

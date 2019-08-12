@@ -21,7 +21,7 @@ public:
 
 	int getNumSistems() { return sistemas.size(); };
 
-	void onInit() {};
+	void onInit();
 	void onUpdate();
 	void onDelete();
 	void drawGalaxi(sf::RenderWindow &wnd);

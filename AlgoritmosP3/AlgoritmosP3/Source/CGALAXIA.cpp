@@ -15,6 +15,14 @@ void GALAXIA::addSistem(SISTEMASOLAR *newsistem)
 	sistemas.push_back(newsistem);
 }
 
+void GALAXIA::onInit()
+{
+  for (size_t i = 0; i < sistemas.size(); i++)
+  {
+    sistemas[i]->onInit();
+  }
+}
+
 void GALAXIA::onUpdate()
 {
 }
@@ -28,7 +36,7 @@ void GALAXIA::onDelete()
 	}
 }
 
-void GALAXIA::drawGalaxi(sf::RenderWindow&wnd)
+void GALAXIA::drawGalaxi(sf::RenderWindow & wnd)
 {
 	for (int i = 0; i < sistemas.size(); i++)
 	{
